@@ -148,17 +148,6 @@
 		</Include>
 		</Menu> <!-- End Other -->
 
-	<!-- Help -->
-	<Menu>
-		<Name>Help</Name>
-		<Directory>lxde-help.directory</Directory>
-		<Include>
-			<And>
-				<Category>Help</Category>
-			</And>
-		</Include>
-	</Menu>	 <!-- End System Tools -->
-
 	<Menu>
 		<Name>DesktopSettings</Name>
 		<Directory>lxde-settings.directory</Directory>
@@ -190,9 +179,6 @@
 		<Menuname>Accessories</Menuname>
 		<Merge type="files"/>
 		<Merge type="menus"/>
-		<Separator/>
-		<Menuname>Help</Menuname>
-		<Separator/>
 		<Menuname>DesktopSettings</Menuname>
 	</Layout>
 
